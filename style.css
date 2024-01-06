@@ -63,7 +63,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
-
+main section{
+    margin-top: 130px;
+}
 .about{
     padding: 130px;
     border-radius: 10px;
@@ -77,4 +79,23 @@ main{
 }
 .ab-info{
     text-align: center;
+}
+
+.sec-2{
+    text-align: center;
+}
+#pa{
+    padding: 30px 150px;
+}
+
+/* skill releted style */
+.skill-content{
+    display: flex;
+    gap: 24px
+    ;
+} 
+.skill{
+    padding: 30px;
+    background-color: antiquewhite;
+    box-shadow: 10px yellow;
 }
