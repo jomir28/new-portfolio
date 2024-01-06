@@ -99,3 +99,15 @@ main section{
     background-color: antiquewhite;
     box-shadow: 10px yellow;
 }
+
+/* summary releted style */
+.h3{
+    text-align: center;
+}
+.m{
+    display: flex;
+    gap: 50px;
+}
+.cv{
+    text-align: center;
+}
