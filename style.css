@@ -101,13 +101,19 @@ main section{
 }
 
 /* summary releted style */
-.h3{
-    text-align: center;
-}
-.m{
+.h3{text-align: center;}
+.summary-container{
     display: flex;
     gap: 50px;
 }
 .cv{
     text-align: center;
+}
+
+/* footer releted style */
+footer{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 130px 200px;
+    margin-top: 100px;
 }
