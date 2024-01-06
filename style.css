@@ -1,11 +1,15 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.header{
+    background-color: aliceblue;
+}
 /* nav releted style */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 nav >ul{
@@ -36,4 +40,12 @@ nav a{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 30px;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.bann-pic{
+    width: 500px;
 }
