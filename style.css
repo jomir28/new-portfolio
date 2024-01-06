@@ -3,6 +3,9 @@ body{
 }
 .header{
     background-color: aliceblue;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 /* nav releted style */
 nav{
@@ -42,10 +45,36 @@ nav a{
     padding: 15px 30px;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner2{
+    max-width: 500px;
 }
 .bann-pic{
     width: 500px;
+}
+/* main section style */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 130px 0;
+}
+.ab-content{
+    display: flex;
+    justify-content: space-around;
+}
+.ab-info{
+    text-align: center;
 }
