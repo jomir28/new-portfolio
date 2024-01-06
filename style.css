@@ -113,7 +113,22 @@ main section{
 /* footer releted style */
 footer{
     display: flex;
+    gap: 100px;
     background-color: antiquewhite;
     padding: 130px 200px;
     margin-top: 100px;
+}
+
+.footer-c{
+    width: 50%;
+}
+
+.form input, textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    width: 100%;
+}
+.social{
+    margin-right: 25px;
 }
